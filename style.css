@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: san-serif;
+}
+
+.background{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://pbs.twimg.com/media/FdvkAAKaUAEcsR7?format=jpg&name=4096x4096);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 1120px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 16em;
+    padding-top: 38vh;
+}
+
+.container img{
+    width: 10em;
+}
+
+.music1{
+    background: url(https://i.postimg.cc/L51vNvVY/change2.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: 0.5s;
+    padding-top: 4px;
+    margin: 20px;
+}
+
+.music1:hover .change{
+    transform: rotate(300deg) ;
+    transition: 1s ease-in;
+    opacity: 0;
+}
+
+.music2{
+    background: url(https://i.postimg.cc/kgcs12Wc/change3.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: 0.5s;
+    padding-top: 4px;
+    margin: 20px;
+}
+
+.music2:hover .change{
+    transform: skew(-20deg, 5deg) ;
+    transition: 1.3s ease;
+    opacity: 0;
+}
+
+.music3{
+    background: url(https://i.postimg.cc/853tRxLg/change1.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: 0.5s;
+    padding-top: 4px;
+    margin: 20px;
+}
+
+.music3:hover .change{
+    transform: rotate(-300deg) skew(20deg) scale(1.5);
+    transition: 0.7s ease-in;
+    opacity: 0;
+    width: 15em;
+}
+
+.music4{
+    background: url(https://i.postimg.cc/J4CQRNqx/change4.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: 0.3s;
+    padding-top: 4px;
+    margin: 20px;
+}
+
+.music4:hover .change{
+    transform: scale(0.1) ;
+    transition: 1s ease-in;
+    opacity: 0;
+}
+
+.music5{
+    background: url(https://i.postimg.cc/9f0dLJmm/change5.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: 0.5s;
+    padding-top: 4px;
+    margin: 20px;
+}
+
+.music5:hover .change{
+    transform: translate(20px) ;
+    transition: 0.8s ease-in;
+    opacity: 0;
+}
+
+    
+
+/*.title{
+    text-align: center;
+    position: absolute;
+    color: white;
+    display: inline-block;
+    text-align: center;
+}*/
+
+.music img{
+    /*color: rgba(0, 0, 0, 1);*/
+}
+
+.title1{
+    display: flex;
+    position: absolute;
+    text-align: center;
+    opacity: 0;
+    top: 35%;
+    left: 1%;
+    font-size: 1.5em;
+    letter-spacing: -0.5%;
+    font-weight: bold;
+    color: white;
+}
+
+    .title1:hover{
+        opacity: 1;
+        transition: 0.8s ease-in;
+    }
+
+.title2{
+    display: flex;
+    position: absolute;
+    text-align: center;
+    opacity: 0;
+    top: 35%;
+    left: 1%;
+    font-size: 1.5em;
+    letter-spacing: -0.5%;
+    font-weight: bold;
+    color: white;
+}
+
+    .title2:hover{
+        opacity: 1;
+        transition: 0.8s ease-in;
+    }
+
+.title3{
+    display: flex;
+    position: absolute;
+    text-align: center;
+    opacity: 0;
+    top: 40%;
+    left: 15%;
+    font-size: 2em;
+    letter-spacing: -0.5%;
+    font-weight: bold;
+    color: white;
+}
+
+    .title3:hover{
+        opacity: 1;
+        transition: 0.8s ease-in;
+    }
+
+.title4{
+    display: flex;
+    position: absolute;
+    text-align: center;
+    opacity: 0;
+    top: 32%;
+    left: 1%;
+    font-size: 1.5em;
+    letter-spacing: -0.5%;
+    font-weight: bold;
+    color: white;
+}
+
+    .title4:hover{
+        opacity: 1;
+        transition: 0.8s ease-in;
+    }
+
+.title5{
+    display: flex;
+    position: absolute;
+    text-align: center;
+    opacity: 0;
+    top: 40%;
+    left: 7%;
+    font-size: 1.5em;
+    letter-spacing: -0.5%;
+    font-weight: bold;
+    color: white;
+}
+
+    .title5:hover{
+        opacity: 1;
+        transition: 0.8s ease-in;
+    }
+
+a{
+    text-decoration: none;
+    color: white;
+}
